@@ -1,0 +1,391 @@
+{
+  "version": "1.0.0",
+  "name": "Papan Nusantara Classic",
+  "total_tiles": 40,
+  "go_salary": 2000000,
+  "jail_bail": 500000,
+  "tiles": [
+    {
+      "id": "mulai",
+      "position": 0,
+      "name": "MULAI",
+      "type": "go",
+      "description": "Lewati atau berhenti di sini dapat Rp2.000.000"
+    },
+    {
+      "id": "bogor",
+      "position": 1,
+      "name": "Bogor",
+      "type": "property",
+      "color_group": "brown",
+      "purchase_price": 600000,
+      "mortgage_value": 300000,
+      "building_cost": 500000,
+      "rent_table": [20000, 40000, 100000, 300000, 900000, 1600000, 2500000]
+    },
+    {
+      "id": "dana_umum_1",
+      "position": 2,
+      "name": "Dana Umum",
+      "type": "community_chest",
+      "description": "Ambil satu kartu Dana Umum"
+    },
+    {
+      "id": "depok",
+      "position": 3,
+      "name": "Depok",
+      "type": "property",
+      "color_group": "brown",
+      "purchase_price": 800000,
+      "mortgage_value": 400000,
+      "building_cost": 500000,
+      "rent_table": [40000, 80000, 200000, 600000, 1800000, 3200000, 4500000]
+    },
+    {
+      "id": "pajak_penghasilan",
+      "position": 4,
+      "name": "Pajak Penghasilan",
+      "type": "tax",
+      "tax_amount": 2000000,
+      "description": "Bayar Pajak Penghasilan Rp2.000.000"
+    },
+    {
+      "id": "stasiun_gambir",
+      "position": 5,
+      "name": "Stasiun Gambir",
+      "type": "transport",
+      "purchase_price": 2000000,
+      "mortgage_value": 1000000,
+      "rent_table": [250000, 500000, 1000000, 2000000]
+    },
+    {
+      "id": "tangerang",
+      "position": 6,
+      "name": "Tangerang",
+      "type": "property",
+      "color_group": "light_blue",
+      "purchase_price": 1000000,
+      "mortgage_value": 500000,
+      "building_cost": 500000,
+      "rent_table": [60000, 120000, 300000, 900000, 2700000, 4000000, 5500000]
+    },
+    {
+      "id": "kesempatan_1",
+      "position": 7,
+      "name": "Kesempatan",
+      "type": "chance",
+      "description": "Ambil satu kartu Kesempatan"
+    },
+    {
+      "id": "bekasi",
+      "position": 8,
+      "name": "Bekasi",
+      "type": "property",
+      "color_group": "light_blue",
+      "purchase_price": 1000000,
+      "mortgage_value": 500000,
+      "building_cost": 500000,
+      "rent_table": [60000, 120000, 300000, 900000, 2700000, 4000000, 5500000]
+    },
+    {
+      "id": "cirebon",
+      "position": 9,
+      "name": "Cirebon",
+      "type": "property",
+      "color_group": "light_blue",
+      "purchase_price": 1200000,
+      "mortgage_value": 600000,
+      "building_cost": 500000,
+      "rent_table": [80000, 160000, 400000, 1000000, 3000000, 4500000, 6000000]
+    },
+    {
+      "id": "penjara",
+      "position": 10,
+      "name": "PENJARA / KUNJUNGAN",
+      "type": "jail",
+      "description": "Hanya berkunjung jika lewat/mampir biasa"
+    },
+    {
+      "id": "bandung",
+      "position": 11,
+      "name": "Bandung",
+      "type": "property",
+      "color_group": "pink",
+      "purchase_price": 1400000,
+      "mortgage_value": 700000,
+      "building_cost": 1000000,
+      "rent_table": [100000, 200000, 500000, 1500000, 4500000, 6250000, 7500000]
+    },
+    {
+      "id": "perusahaan_listrik",
+      "position": 12,
+      "name": "Perusahaan Listrik",
+      "type": "utility",
+      "purchase_price": 1500000,
+      "mortgage_value": 750000,
+      "multipliers": [40000, 100000]
+    },
+    {
+      "id": "cimahi",
+      "position": 13,
+      "name": "Cimahi",
+      "type": "property",
+      "color_group": "pink",
+      "purchase_price": 1400000,
+      "mortgage_value": 700000,
+      "building_cost": 1000000,
+      "rent_table": [100000, 200000, 500000, 1500000, 4500000, 6250000, 7500000]
+    },
+    {
+      "id": "garut",
+      "position": 14,
+      "name": "Garut",
+      "type": "property",
+      "color_group": "pink",
+      "purchase_price": 1600000,
+      "mortgage_value": 800000,
+      "building_cost": 1000000,
+      "rent_table": [120000, 240000, 600000, 1800000, 5000000, 7000000, 9000000]
+    },
+    {
+      "id": "stasiun_bandung",
+      "position": 15,
+      "name": "Stasiun Bandung",
+      "type": "transport",
+      "purchase_price": 2000000,
+      "mortgage_value": 1000000,
+      "rent_table": [250000, 500000, 1000000, 2000000]
+    },
+    {
+      "id": "semarang",
+      "position": 16,
+      "name": "Semarang",
+      "type": "property",
+      "color_group": "orange",
+      "purchase_price": 1800000,
+      "mortgage_value": 900000,
+      "building_cost": 1000000,
+      "rent_table": [140000, 280000, 700000, 2000000, 5500000, 7500000, 9500000]
+    },
+    {
+      "id": "dana_umum_2",
+      "position": 17,
+      "name": "Dana Umum",
+      "type": "community_chest",
+      "description": "Ambil satu kartu Dana Umum"
+    },
+    {
+      "id": "solo",
+      "position": 18,
+      "name": "Solo",
+      "type": "property",
+      "color_group": "orange",
+      "purchase_price": 1800000,
+      "mortgage_value": 900000,
+      "building_cost": 1000000,
+      "rent_table": [140000, 280000, 700000, 2000000, 5500000, 7500000, 9500000]
+    },
+    {
+      "id": "yogyakarta",
+      "position": 19,
+      "name": "Yogyakarta",
+      "type": "property",
+      "color_group": "orange",
+      "purchase_price": 2000000,
+      "mortgage_value": 1000000,
+      "building_cost": 1000000,
+      "rent_table": [160000, 320000, 800000, 2200000, 6000000, 8000000, 10000000]
+    },
+    {
+      "id": "parkir_gratis",
+      "position": 20,
+      "name": "PARKIR GRATIS",
+      "type": "free_parking",
+      "description": "Tempat istirahat yang aman tanpa biaya"
+    },
+    {
+      "id": "surabaya",
+      "position": 21,
+      "name": "Surabaya",
+      "type": "property",
+      "color_group": "red",
+      "purchase_price": 2200000,
+      "mortgage_value": 1100000,
+      "building_cost": 1500000,
+      "rent_table": [180000, 360000, 900000, 2500000, 7000000, 8750000, 10500000]
+    },
+    {
+      "id": "kesempatan_2",
+      "position": 22,
+      "name": "Kesempatan",
+      "type": "chance",
+      "description": "Ambil satu kartu Kesempatan"
+    },
+    {
+      "id": "malang",
+      "position": 23,
+      "name": "Malang",
+      "type": "property",
+      "color_group": "red",
+      "purchase_price": 2200000,
+      "mortgage_value": 1100000,
+      "building_cost": 1500000,
+      "rent_table": [180000, 360000, 900000, 2500000, 7000000, 8750000, 10500000]
+    },
+    {
+      "id": "sidoarjo",
+      "position": 24,
+      "name": "Sidoarjo",
+      "type": "property",
+      "color_group": "red",
+      "purchase_price": 2400000,
+      "mortgage_value": 1200000,
+      "building_cost": 1500000,
+      "rent_table": [200000, 400000, 1000000, 3000000, 7500000, 9250000, 11000000]
+    },
+    {
+      "id": "stasiun_surabaya_gubeng",
+      "position": 25,
+      "name": "Stasiun Surabaya Gubeng",
+      "type": "transport",
+      "purchase_price": 2000000,
+      "mortgage_value": 1000000,
+      "rent_table": [250000, 500000, 1000000, 2000000]
+    },
+    {
+      "id": "denpasar",
+      "position": 26,
+      "name": "Denpasar",
+      "type": "property",
+      "color_group": "yellow",
+      "purchase_price": 2600000,
+      "mortgage_value": 1300000,
+      "building_cost": 1500000,
+      "rent_table": [220000, 440000, 1100000, 3300000, 8000000, 9750000, 11500000]
+    },
+    {
+      "id": "singaraja",
+      "position": 27,
+      "name": "Singaraja",
+      "type": "property",
+      "color_group": "yellow",
+      "purchase_price": 2600000,
+      "mortgage_value": 1300000,
+      "building_cost": 1500000,
+      "rent_table": [220000, 440000, 1100000, 3300000, 8000000, 9750000, 11500000]
+    },
+    {
+      "id": "perusahaan_air",
+      "position": 28,
+      "name": "Perusahaan Air",
+      "type": "utility",
+      "purchase_price": 1500000,
+      "mortgage_value": 750000,
+      "multipliers": [40000, 100000]
+    },
+    {
+      "id": "mataram",
+      "position": 29,
+      "name": "Mataram",
+      "type": "property",
+      "color_group": "yellow",
+      "purchase_price": 2800000,
+      "mortgage_value": 1400000,
+      "building_cost": 1500000,
+      "rent_table": [240000, 480000, 1200000, 3600000, 8500000, 10250000, 12000000]
+    },
+    {
+      "id": "masuk_penjara",
+      "position": 30,
+      "name": "MASUK PENJARA",
+      "type": "go_to_jail",
+      "description": "Langsung masuk ke penjara, tidak lewat MULAI"
+    },
+    {
+      "id": "balikpapan",
+      "position": 31,
+      "name": "Balikpapan",
+      "type": "property",
+      "color_group": "green",
+      "purchase_price": 3000000,
+      "mortgage_value": 1500000,
+      "building_cost": 2000000,
+      "rent_table": [260000, 520000, 1300000, 3900000, 9000000, 11000000, 12750000]
+    },
+    {
+      "id": "samarinda",
+      "position": 32,
+      "name": "Samarinda",
+      "type": "property",
+      "color_group": "green",
+      "purchase_price": 3000000,
+      "mortgage_value": 1500000,
+      "building_cost": 2000000,
+      "rent_table": [260000, 520000, 1300000, 3900000, 9000000, 11000000, 12750000]
+    },
+    {
+      "id": "pontianak",
+      "position": 33,
+      "name": "Pontianak",
+      "type": "property",
+      "color_group": "green",
+      "purchase_price": 3200000,
+      "mortgage_value": 1600000,
+      "building_cost": 2000000,
+      "rent_table": [280000, 560000, 1500000, 4500000, 10000000, 12000000, 14000000]
+    },
+    {
+      "id": "dana_umum_3",
+      "position": 34,
+      "name": "Dana Umum",
+      "type": "community_chest",
+      "description": "Ambil satu kartu Dana Umum"
+    },
+    {
+      "id": "stasiun_medan",
+      "position": 35,
+      "name": "Stasiun Medan",
+      "type": "transport",
+      "purchase_price": 2000000,
+      "mortgage_value": 1000000,
+      "rent_table": [250000, 500000, 1000000, 2000000]
+    },
+    {
+      "id": "kesempatan_3",
+      "position": 36,
+      "name": "Kesempatan",
+      "type": "chance",
+      "description": "Ambil satu kartu Kesempatan"
+    },
+    {
+      "id": "medan",
+      "position": 37,
+      "name": "Medan",
+      "type": "property",
+      "color_group": "dark_blue",
+      "purchase_price": 3500000,
+      "mortgage_value": 1750000,
+      "building_cost": 2000000,
+      "rent_table": [350000, 700000, 1750000, 5000000, 11000000, 13000000, 15000000]
+    },
+    {
+      "id": "pajak_kekayaan",
+      "position": 38,
+      "name": "Pajak Kekayaan",
+      "type": "tax",
+      "tax_amount": 1000000,
+      "description": "Bayar Pajak Kekayaan Rp1.000.000"
+    },
+    {
+      "id": "makassar",
+      "position": 39,
+      "name": "Makassar",
+      "type": "property",
+      "color_group": "dark_blue",
+      "purchase_price": 4000000,
+      "mortgage_value": 2000000,
+      "building_cost": 2000000,
+      "rent_table": [500000, 1000000, 2000000, 6000000, 14000000, 17000000, 20000000]
+    }
+  ]
+}

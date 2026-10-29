@@ -1,0 +1,267 @@
+{
+  "version": "1.0.0",
+  "chance": [
+    {
+      "id": "ch_go",
+      "deck": "chance",
+      "title": "Maju ke MULAI",
+      "description": "Maju langsung ke petak MULAI. Ambil gaji sebesar Rp2.000.000.",
+      "action_type": "move_to_tile",
+      "target_position": 0,
+      "pass_go_reward": true
+    },
+    {
+      "id": "ch_gambir",
+      "deck": "chance",
+      "title": "Perjalanan ke Stasiun Gambir",
+      "description": "Maju ke Stasiun Gambir. Jika melewati petak MULAI, ambil Rp2.000.000.",
+      "action_type": "move_to_tile",
+      "target_position": 5,
+      "pass_go_reward": true
+    },
+    {
+      "id": "ch_balikpapan",
+      "deck": "chance",
+      "title": "Kunjungan ke Ibu Kota Baru",
+      "description": "Maju ke Balikpapan. Jika melewati petak MULAI, ambil Rp2.000.000.",
+      "action_type": "move_to_tile",
+      "target_position": 31,
+      "pass_go_reward": true
+    },
+    {
+      "id": "ch_listrik",
+      "deck": "chance",
+      "title": "Inspeksi Energi Nasional",
+      "description": "Maju ke Perusahaan Listrik. Jika melewati MULAI, ambil Rp2.000.000.",
+      "action_type": "move_to_tile",
+      "target_position": 12,
+      "pass_go_reward": true
+    },
+    {
+      "id": "ch_jail",
+      "deck": "chance",
+      "title": "Masuk Penjara!",
+      "description": "Langsung masuk penjara. Jangan melewati MULAI, jangan ambil uang Rp2.000.000.",
+      "action_type": "go_to_jail"
+    },
+    {
+      "id": "ch_fine",
+      "deck": "chance",
+      "title": "Denda Tilang Elektronik (ETLE)",
+      "description": "Pelanggaran lalu lintas di jalan tol. Bayar denda Rp300.000 ke Bank.",
+      "action_type": "pay_money",
+      "amount": 300000
+    },
+    {
+      "id": "ch_tender",
+      "deck": "chance",
+      "title": "Menang Tender Proyek",
+      "description": "Perusahaan Anda memenangkan tender proyek infrastruktur daerah. Terima Rp1.000.000 dari Bank.",
+      "action_type": "receive_money",
+      "amount": 1000000
+    },
+    {
+      "id": "ch_repairs",
+      "deck": "chance",
+      "title": "Biaya Renovasi Bangunan",
+      "description": "Lakukan pemeliharaan berkala untuk seluruh aset properti Anda. Bayar Rp250.000 per rumah dan Rp1.000.000 per hotel.",
+      "action_type": "property_repairs",
+      "per_house": 250000,
+      "per_hotel": 1000000
+    },
+    {
+      "id": "ch_kuliner",
+      "deck": "chance",
+      "title": "Festival Kuliner Nusantara",
+      "description": "Stan kuliner Anda meraih penghargaan festival terbaik! Terima Rp500.000 dari Bank.",
+      "action_type": "receive_money",
+      "amount": 500000
+    },
+    {
+      "id": "ch_jail_free",
+      "deck": "chance",
+      "title": "Kartu Bebas Penjara",
+      "description": "Simpan kartu ini hingga dibutuhkan, atau jual/tukar dengan pemain lain.",
+      "action_type": "get_out_of_jail_free"
+    },
+    {
+      "id": "ch_back_3",
+      "deck": "chance",
+      "title": "Mundur 3 Langkah",
+      "description": "Ada penutupan jalan karena kirab budaya. Mundur sebanyak 3 langkah.",
+      "action_type": "move_relative",
+      "steps": -3
+    },
+    {
+      "id": "ch_toba",
+      "deck": "chance",
+      "title": "Liburan ke Danau Toba",
+      "description": "Biaya akomodasi dan transportasi wisata Danau Toba. Bayar Rp500.000.",
+      "action_type": "pay_money",
+      "amount": 500000
+    },
+    {
+      "id": "ch_dividen",
+      "deck": "chance",
+      "title": "Dividen Saham BUMN",
+      "description": "Portofolio investasi Anda membagikan laba bersih tahunan. Terima Rp500.000.",
+      "action_type": "receive_money",
+      "amount": 500000
+    },
+    {
+      "id": "ch_kadin",
+      "deck": "chance",
+      "title": "Terpilih sebagai Ketua Kadin",
+      "description": "Rayakan pengukuhan kepengurusan dengan traktir jamuan bisnis. Bayar Rp200.000 kepada setiap pemain.",
+      "action_type": "pay_each_player",
+      "amount": 200000
+    },
+    {
+      "id": "ch_makassar",
+      "deck": "chance",
+      "title": "Ekspansi ke Makassar",
+      "description": "Maju ke Makassar. Jika melewati MULAI, ambil Rp2.000.000.",
+      "action_type": "move_to_tile",
+      "target_position": 39,
+      "pass_go_reward": true
+    },
+    {
+      "id": "ch_ori",
+      "deck": "chance",
+      "title": "Kupon Obligasi Negara",
+      "description": "Pencairan kupon Surat Berharga Negara (ORI). Terima Rp1.500.000 dari Bank.",
+      "action_type": "receive_money",
+      "amount": 1500000
+    }
+  ],
+  "community_chest": [
+    {
+      "id": "cc_go",
+      "deck": "community_chest",
+      "title": "Maju ke MULAI",
+      "description": "Maju langsung ke petak MULAI. Ambil Rp2.000.000.",
+      "action_type": "move_to_tile",
+      "target_position": 0,
+      "pass_go_reward": true
+    },
+    {
+      "id": "cc_scholarship",
+      "deck": "community_chest",
+      "title": "Beasiswa Pendidikan",
+      "description": "Dukungan dana riset dan pengembangan talenta muda. Terima Rp400.000 dari Bank.",
+      "action_type": "receive_money",
+      "amount": 400000
+    },
+    {
+      "id": "cc_hospital",
+      "deck": "community_chest",
+      "title": "Tagihan Rumah Sakit",
+      "description": "Biaya pengobatan dan rawat inap keluarga. Bayar Rp500.000 ke Bank.",
+      "action_type": "pay_money",
+      "amount": 500000
+    },
+    {
+      "id": "cc_umkm",
+      "deck": "community_chest",
+      "title": "Bonus Usaha UMKM",
+      "description": "Hasil penjualan kerajinan lokal melonjak tinggi. Terima Rp700.000.",
+      "action_type": "receive_money",
+      "amount": 700000
+    },
+    {
+      "id": "cc_tax_refund",
+      "deck": "community_chest",
+      "title": "Pengembalian Pajak (Tax Refund)",
+      "description": "Kelebihan pembayaran pajak tahun lalu dikembalikan oleh negara. Terima Rp300.000.",
+      "action_type": "receive_money",
+      "amount": 300000
+    },
+    {
+      "id": "cc_coop",
+      "deck": "community_chest",
+      "title": "Bantuan Sisa Hasil Usaha Koperasi",
+      "description": "Pembagian SHU koperasi simpan pinjam warga. Terima Rp200.000.",
+      "action_type": "receive_money",
+      "amount": 200000
+    },
+    {
+      "id": "cc_jail_free",
+      "deck": "community_chest",
+      "title": "Kartu Bebas Penjara",
+      "description": "Simpan kartu ini hingga dibutuhkan, atau jual/tukar dengan pemain lain.",
+      "action_type": "get_out_of_jail_free"
+    },
+    {
+      "id": "cc_jail",
+      "deck": "community_chest",
+      "title": "Masuk Penjara!",
+      "description": "Langsung masuk penjara. Jangan melewati MULAI, jangan ambil uang.",
+      "action_type": "go_to_jail"
+    },
+    {
+      "id": "cc_arisan",
+      "deck": "community_chest",
+      "title": "Menang Arisan Keluarga",
+      "description": "Giliran Anda memenangkan undian arisan bulanan! Terima Rp100.000 dari setiap pemain.",
+      "action_type": "receive_from_each_player",
+      "amount": 100000
+    },
+    {
+      "id": "cc_repairs",
+      "deck": "community_chest",
+      "title": "Perbaikan Lingkungan RT/RW",
+      "description": "Iuran gotong royong perbaikan jalan dan selokan. Bayar Rp400.000 per rumah dan Rp1.150.000 per hotel.",
+      "action_type": "property_repairs",
+      "per_house": 400000,
+      "per_hotel": 1150000
+    },
+    {
+      "id": "cc_harvest",
+      "deck": "community_chest",
+      "title": "Panen Raya Komoditas",
+      "description": "Hasil panen kopi dan rempah Nusantara terjual ekspor. Terima Rp1.000.000.",
+      "action_type": "receive_money",
+      "amount": 1000000
+    },
+    {
+      "id": "cc_bpjs",
+      "deck": "community_chest",
+      "title": "Iuran BPJS Kesehatan",
+      "description": "Pembayaran jaminan kesehatan rutin bagi seluruh karyawan. Bayar Rp250.000.",
+      "action_type": "pay_money",
+      "amount": 250000
+    },
+    {
+      "id": "cc_inheritance",
+      "deck": "community_chest",
+      "title": "Warisan Tanah Leluhur",
+      "description": "Pembagian hak waris keluarga diselesaikan dengan damai. Terima Rp1.000.000.",
+      "action_type": "receive_money",
+      "amount": 1000000
+    },
+    {
+      "id": "cc_donation",
+      "deck": "community_chest",
+      "title": "Donasi Bencana Alam",
+      "description": "Salurkan bantuan kemanusiaan untuk warga terdampak banjir. Bayar Rp500.000 ke Bank.",
+      "action_type": "pay_money",
+      "amount": 500000
+    },
+    {
+      "id": "cc_consulting",
+      "deck": "community_chest",
+      "title": "Jasa Konsultasi Bisnis",
+      "description": "Honorarium atas jasa pendampingan bisnis rintisan. Terima Rp250.000.",
+      "action_type": "receive_money",
+      "amount": 250000
+    },
+    {
+      "id": "cc_anniversary",
+      "deck": "community_chest",
+      "title": "Ulang Tahun Perusahaan",
+      "description": "Kolega dan mitra bisnis mengirim hadiah ucapan selamat. Terima Rp100.000 dari setiap pemain.",
+      "action_type": "receive_from_each_player",
+      "amount": 100000
+    }
+  ]
+}
